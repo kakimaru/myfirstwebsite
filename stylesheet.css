@@ -1,0 +1,161 @@
+@import url('https://googlefonts.github.io/japanese/#notosansjapanese');
+
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3','ヒラギノ明朝 ProN','Hiragino Mincho ProN','klee','明朝体' sans-serif;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからHP　*/
+
+header {
+  width:100%;
+  margin:0 auto;
+  height:90px;
+  border-bottom: 3px solid #dde7bd;
+  background-color:rgba(255,255,255,0.8) ;
+  position:fixed;
+  top:0px;
+  z-index: 10px;
+}
+
+.login {
+  display:block;
+  float:right;
+  color:#a6d36d;
+  margin:30px 40px;
+}
+
+.header-logo {
+  font-size:30px;
+  padding:20px 40px;
+  float:left;
+  color:#94cc4c;
+  opacity:0.8;
+}
+
+.header-list li {
+  display:inline-block;
+  padding:30px 10px;
+  color:#9ea6a6;
+  cursor: pointer;
+}
+
+.header-list li:hover {
+  color:black;
+}
+
+.top-wrapper {
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/ticket-trade.emtg.jp/production/assets/img/artist/hiraganakeyaki/hiragana46_banner.jpg);
+  background-size:cover;
+  margin:90px auto;
+  height:800px;
+  border-bottom: 5px solid #dde7bd;
+}
+
+.container {
+  text-align: center;
+  font-family:"ヒラギノ明朝 ProN";
+  width:100%;
+}
+
+.container h1 {
+  font-weight:normal;
+  font-family:'klee';
+  font-size:100px;
+  color:#61aed6;
+}
+
+.container h2 {
+  font-size:20px;
+  font-family:'klee';
+  color:#9ea6a6;
+  padding-bottom:30px;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+.reservation {
+  color:white;
+  background-color:#c0e4f4;
+  border-radius: 40px;
+  padding:15px;
+  box-shadow:0 4px #9ea6a6;
+}
+
+.reservation:hover {
+  background-color:#61aed6;
+}
+
+.reservation:active {
+  position:relative;
+  top:4px;
+  box-shadow:none;
+}
+
+.kashi-wrapper p {
+  color:#dde7bd;
+  font-size:20px;
+  padding:15px;
+}
+
+.kashi-container {
+  font-family:'Sawarabi';
+  margin-top:30px;
+  margin-bottom:30px;
+  width:100%;
+
+}
+
+.kashi-container a {
+  display:block;
+  color:#a4bcc4;
+  font-size:20px;
+  font-family: serif;
+}
+
+.boku, .dome, .kizuna{
+  font-size:30px;
+  font-family: serif;
+}
+
+.message-wrapper {
+  margin-top:60px;
+  width:100%;
+  padding-bottom:60px;
+}
+
+.heading {
+  color:#f4f8f0;
+  font-family: sans-serif;
+  font-size:15px;
+}
+
+
+
+footer {
+  border-top:5px solid #dde7bd;
+  text-align: center;
+  color:#94cc4c;
+}
